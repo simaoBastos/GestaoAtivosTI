@@ -53,7 +53,7 @@ namespace GestaoAtivosTI
                 }
                 _repositorio.Adicionar(novoEquipamento);
 
-                MessageBox.Show($"Cadastrado com sucesso!\nDepreciação projetada(3 anos):{novoEquipamento.CalcularDepreciacao(3):C}", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"Cadastrado com sucesso!\nDepreciação projetada (3 anos):{novoEquipamento.CalcularDepreciacao(3):C}", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             catch (Exception ex)
